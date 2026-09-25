@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date: Learn how to use command line arguments.
+# Author:Colin Spagnuolo
+# Date: September 25th, 2026
 # Purpose: .
 # Usage: ./lab2d.py
 
@@ -12,4 +12,9 @@
 
 # TO DO 2: copy the required lines from README.md to print argv[0], argv[1] and argv[2]
 # run the script using the following command: python lab2d.py maija Maija
+import sys
+print(sys.version) # prints the version of the python currently in use.
+print(sys.platform) # prints the name of operating system.
+print(sys.argv) # prints the list of all arguments given at the command line when running our python script
+print(len(sys.argv))#prints the number of all arguments
 
