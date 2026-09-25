@@ -17,4 +17,9 @@ print(sys.version) # prints the version of the python currently in use.
 print(sys.platform) # prints the name of operating system.
 print(sys.argv) # prints the list of all arguments given at the command line when running our python script
 print(len(sys.argv))#prints the number of all arguments
+(len(sys.argv[0]))
+(sys.argv[0])# prints the number of all the arguments, it is always the name of script.
+(sys.argv[1])# prints the second argument
+(sys.argv[2]) #prints the third argument
+(len(sys.argv)) # tells us the number of command line arguments the user provides from the terminal.
 
