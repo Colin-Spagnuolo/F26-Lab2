@@ -8,6 +8,8 @@
 
 # TO DO 1:
 # Follow the instructions given in the README.md file.
-num=int(input("Enter a 4 digit interger"))
-if num=1984;
+num=int(input("Enter a 4 digit interger: "))
+if num==1984:
     print("George Orwell")
+else:
+    print("Not quite right")
